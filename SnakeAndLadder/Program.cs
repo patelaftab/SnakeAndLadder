@@ -12,6 +12,8 @@ namespace SnakeAndLadder
         {
             Console.WriteLine("Welcome To Snake And Ladder Program");
             SnakeLadder.snakeladderProgram();
+            SnakeLadder.diceoutput();
+            SnakeLadder.Play();
             Console.WriteLine(Console.ReadLine());
         }
     }
